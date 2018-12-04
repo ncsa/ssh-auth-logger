@@ -1,4 +1,4 @@
-A low/zero interaction ssh authentication logging honeypot
+A low/zero interaction ssh authentication logging honeypot.  Author: Justin Azoff.
 
 ## Interesting features
 
