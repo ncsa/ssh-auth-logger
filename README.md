@@ -39,7 +39,7 @@ This is normally logged on one line
 
 ## How to use it
 
-    go get -u -v github.com/JustinAzoff/ssh-auth-logger
+    go get -u -v github.com/ncsa/ssh-auth-logger
     export SSHD_BIND=:2222
     ~/go/bin/ssh-auth-logger
 
@@ -51,4 +51,4 @@ To bind to port 22 directly:
 
 ## Run with docker
 
-    docker run -t -i --rm  -p 2222:22 justinazoff/ssh-auth-logger
+    docker run -t -i --rm  -p 2222:22 ncsa/ssh-auth-logger
